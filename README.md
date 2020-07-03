@@ -7,8 +7,9 @@ Symfony 4.4
 
 ## Installation
 
-## Database
-- Datasource : http://base-donnees-publique.medicaments.gouv.fr/telechargement.php
+## Sources de données
+- niveau national :
+  - http://base-donnees-publique.medicaments.gouv.fr/telechargement.php
 
 ## Mise à jour
 
