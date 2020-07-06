@@ -41,7 +41,7 @@ Mets à jour les dépendances du projet :
   symfony update
 ```
 
-## Config Apache Serveur
+## Apache Serveur
 
 Dans le répertoire du project :
 ```bash
@@ -49,3 +49,8 @@ Dans le répertoire du project :
 ```
 
 Les configurations restantes (pour la mise en production) seront à faire à travers ce lien <a href="https://symfony.com/doc/current/setup/web_server_configuration.html" target="__blank">https://symfony.com/doc/current/setup/web_server_configuration.html</a>
+
+## Route
+
+- /medicament
+- /medicament/{id}
