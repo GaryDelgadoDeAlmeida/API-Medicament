@@ -1,23 +1,25 @@
 # API-Medicament
 
-## Prérequis
+## Configuration
+
+### Prérequis
 
 PHP => 7.3
 Symfony 4.4
 
-## Installation
+### Installation
 
 ```bash
   composer install
 ```
 
-## Database
+### Database
 
-### Sources de données
+#### Sources de données
 - niveau national :
   - http://base-donnees-publique.medicaments.gouv.fr/telechargement.php
 
-### Terminal
+#### Terminal
 
 Créer la database :
 ```bash
@@ -34,14 +36,14 @@ Sauvegarder les modifications dans la database :
   php bin/console doctrine:migrations:migrate
 ```
 
-## Mise à jour
+### Mise à jour
 
 Mets à jour les dépendances du projet :
 ```bash
   symfony update
 ```
 
-## Apache Serveur
+### Apache Serveur
 
 Dans le répertoire du project :
 ```bash
@@ -50,7 +52,9 @@ Dans le répertoire du project :
 
 Les configurations restantes (pour la mise en production) seront à faire à travers ce lien <a href="https://symfony.com/doc/current/setup/web_server_configuration.html" target="__blank">https://symfony.com/doc/current/setup/web_server_configuration.html</a>
 
-## Route
+## Documentation
+
+### Route
 
 - /medicament
 - /medicament/{id}
