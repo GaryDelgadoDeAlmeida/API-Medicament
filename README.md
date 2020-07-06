@@ -11,11 +11,28 @@ Symfony 4.4
   composer install
 ```
 
-## Sources de données
+## Database
+
+### Sources de données
 - niveau national :
   - http://base-donnees-publique.medicaments.gouv.fr/telechargement.php
 
-## Database
+### Terminal
+
+Créer la database :
+```bash
+  php bin/console doctrine:database:create
+```
+
+Générer les tables (pour la database) :
+```bash
+  php bin/console make:migration
+```
+
+Sauvegarder les modifications dans la database :
+```bash
+  php bin/console doctrine:migrations:migrate
+```
 
 ## Mise à jour
 
@@ -25,3 +42,10 @@ Mets à jour les dépendances du projet :
 ```
 
 ## Config Apache Serveur
+
+Dans le répertoire du project :
+```bash
+  composer require symfony/apache-pack
+```
+
+Les configurations restantes (pour la mise en production) seront à faire à travers ce lien <a href="https://symfony.com/doc/current/setup/web_server_configuration.html" target="__blank">https://symfony.com/doc/current/setup/web_server_configuration.html</a>
