@@ -56,8 +56,26 @@ Les configurations restantes (pour la mise en production) seront à faire à tra
 
 ### Route
 
-- /medicament
-- /medicament/{id}
+- /medicament.GET
+- /medicament/{id}.GET
+- /medicament/{id}/delete.DELETE
+- /avis/asmr.GET
+- /avis/asmr/{id}.GET
+- /avis/smr.GET
+- /avis/smr/{id}.GET
+- /composition.GET
+- /composition/{code_cis}.GET
+- /group/generique.GET
+- /group/generique/{id}.GET
+- /info/important.GET
+- /info/important/{id}.GET
+- /link.GET
+- /link/{id}.GET
+- /prescription/condition.GET
+- /prescription/condition/{id}.GET
+- /presentation.GET
+- /presentation/{id}.GET
+- /presentation/{id}.DELETE
 
 ### Command
 - symfony console app:import:avis-asmr
