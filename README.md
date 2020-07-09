@@ -60,4 +60,12 @@ Les configurations restantes (pour la mise en production) seront à faire à tra
 - /medicament/{id}
 
 ### Command
-- symfony console ...
+- symfony console app:import:avis-asmr
+- symfony console app:import:avis-smr
+- symfony console app:import:composition
+- symfony console app:import:group-generique
+- symfony console app:import:info
+- symfony console app:import:medicament
+- symfony console app:import:page-link
+- symfony console app:import:prescription-condition
+- symfony console app:import:presentation
