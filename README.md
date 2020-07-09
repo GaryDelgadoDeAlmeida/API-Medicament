@@ -58,3 +58,6 @@ Les configurations restantes (pour la mise en production) seront à faire à tra
 
 - /medicament
 - /medicament/{id}
+
+### Command
+- symfony console ...
