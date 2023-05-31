@@ -18,3 +18,7 @@
 ###> sensitive files ###
 /.env
 ###< sensitive files ###
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
